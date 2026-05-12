@@ -1,0 +1,90 @@
+font-family {
+  font-family: 'Times New Roman', serif;
+}
+h1 {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+}
+p{
+    font-size: 12px;
+    text-align: justify;
+}
+.rodape{
+    font-size: 11px;
+    text-align: center;
+    color: gray;
+}
+.data{
+    flex: 2;
+    font-size: 12px;
+    text-align: right;
+}
+.contagem_de_paginas{
+    font-size: 11px;
+    text-align: right;
+    color: gray;
+}
+.container{
+  width: 794px;
+  min-height: 1123px;
+
+  margin: auto;
+
+  background: white;
+
+  padding: 60px;
+
+  box-sizing: border-box;
+
+  display: flex;
+  flex-direction: column;
+}
+
+header{
+
+  height: 80px;
+
+  display: flex;
+
+  justify-content: space-between;
+
+  align-items: center;
+}
+
+.logo{
+
+  width: 200px;
+  height: auto;
+
+  object-fit: contain;
+}
+.image_capa{
+  width: 400px;
+  height: auto;
+  display: block;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+footer{
+
+  border-top  : 1px dotted gray;
+
+  padding-top: 20px;
+
+  margin-top: 40px;
+
+  text-align: center;
+}
+
+main{
+
+  flex: 1;
+
+  display: flex;
+
+  flex-direction: column;
+
+  justify-content: center;
+}

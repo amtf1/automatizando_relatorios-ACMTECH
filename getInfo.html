@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerar relatório</title>
+
+</head>
+<body>
+    <form id = "formRelatorio">
+        <select id="empresa">   
+            <option value="">
+                Empresa Contratante
+            </option>
+            <option value="Empresa 1">
+                Empresa 1           
+            </option>
+            <option value="Empresa 2">
+                Empresa 2
+            </option>
+            <option value="Fábio Mota - HARMAN DA AMAZÔNIA">
+                Fábio Mota - HARMAN DA AMAZÔNIA
+            </option>
+        </select>
+
+        <input type="text" id = "linha" placeholder="Linha de Produção">
+
+        <select id="maquina">   
+            <option value="">
+                Máquina ou Equipamento
+            </option>
+            <option value="HELLER 1913 MKIII.">
+                HELLER 1913 MKIII.          
+            </option>
+            <option value="HELLER 1913 MK5.">
+                HELLER 1913 MK5.
+            </option>
+            <option value="ERSA VERSAFLOW 3 Selective Soldering System.">
+                ERSA VERSAFLOW 3 Selective Soldering System 1.
+            </option>
+            <option value="WAVE SOLDERING 350PC LF.">
+                WAVE SOLDERING 350PC LF.
+            </option>
+        </select>
+
+        <input type="text" id = "tp-servico" placeholder="Tipo de serviço">
+
+        <button type="submit">Gerar relatório</button>
+    </form>
+    <script src="scriptGET.js"></script>
+</body>
+</html>
