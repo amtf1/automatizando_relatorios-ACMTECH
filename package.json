@@ -1,0 +1,24 @@
+{
+  "name": "automatizando_relatorios-acmtech",
+  "version": "1.0.0",
+  "description": "**Status:** Em desenvolvimento 🚧",
+  "main": "gerarPDF.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amtf1/automatizando_relatorios-ACMTECH.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/amtf1/automatizando_relatorios-ACMTECH/issues"
+  },
+  "homepage": "https://github.com/amtf1/automatizando_relatorios-ACMTECH#readme",
+  "dependencies": {
+    "puppeteer": "^25.16.0"
+  }
+}
